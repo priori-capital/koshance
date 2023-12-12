@@ -1,4 +1,4 @@
-import KiraLogo from "../public/icons/Kira.svg";
+import KiraLogo from "../public/icons/kira.svg";
 export default function Kira() {
 	return (
 		<div className="flex flex-col justify-center items-center gap-6 mt-[145px] mb-[93px]">
