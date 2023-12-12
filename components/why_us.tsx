@@ -88,7 +88,7 @@ export default function WhyUS() {
 			</div>
 			<div className="flex flex-wrap justify-center gap-6">
 				{WHY_US.map((why_us) => (
-					<WhyUSCard why_us={why_us} />
+					<WhyUSCard key={why_us.title} why_us={why_us} />
 				))}
 			</div>
 		</div>

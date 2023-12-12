@@ -45,7 +45,10 @@ export default function Security() {
 				</div>
 				<div className="flex flex-wrap gap-12 justify-center">
 					{SECURITY_POINTS.map((security_point) => (
-						<SecurityCard security_point={security_point} />
+						<SecurityCard
+							key={security_point.title}
+							security_point={security_point}
+						/>
 					))}
 				</div>
 			</div>

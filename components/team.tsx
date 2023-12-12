@@ -96,7 +96,7 @@ export default function Team() {
 			<h2 className="text-center text-[#015657]">Meet the Team</h2>
 			<div className="flex flex-wrap justify-center gap-12">
 				{TEAM.map((member) => (
-					<TeamCard member={member} />
+					<TeamCard key={member.name} member={member} />
 				))}
 			</div>
 		</div>
