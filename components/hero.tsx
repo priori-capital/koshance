@@ -16,7 +16,8 @@ export default function Hero() {
 					</p>
 				</div>
 				<a
-					href="#"
+					href="https://forms.gle/iirJyvJBSNDZUBav9"
+					target="_blank"
 					className="rounded-[8px] bg-koshance-yellow p-[10px] px-7 text-[#023C3A]"
 				>
 					Get a Demo

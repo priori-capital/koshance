@@ -37,7 +37,7 @@ const SECURITY_POINTS = [
 ];
 export default function Security() {
 	return (
-		<div className=" p-9">
+		<div className="p-9" id="features">
 			<div className=" mx-auto flex flex-col gap-8 items-center justify-center ">
 				<div className="text-center">
 					<h4 className="text-[rgba(1,74,74,0.60)]">Unlocking security </h4>
