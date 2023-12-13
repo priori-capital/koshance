@@ -4,7 +4,7 @@ const TEAM = [
 		name: "Sayli",
 		designation: "Co-founder",
 		image: (
-			<Image
+			<img
 				alt="sayli"
 				src="/assets/team/sayli.webp"
 				width={100}
@@ -17,7 +17,7 @@ const TEAM = [
 		name: "Shilpi",
 		designation: "Co-founder",
 		image: (
-			<Image
+			<img
 				alt="shilpi"
 				src="/assets/team/shilpi.webp"
 				width={100}
@@ -30,7 +30,7 @@ const TEAM = [
 		name: "Ujjwal",
 		designation: "Tech Maestro",
 		image: (
-			<Image
+			<img
 				alt="shilpi"
 				src="/assets/team/ujjwal.webp"
 				width={100}
@@ -43,7 +43,7 @@ const TEAM = [
 		name: "Shila",
 		designation: "Design Diva",
 		image: (
-			<Image
+			<img
 				alt="shila"
 				src="/assets/team/shila.webp"
 				width={100}
@@ -56,7 +56,7 @@ const TEAM = [
 		name: "Dineshh",
 		designation: "Backend Wiz",
 		image: (
-			<Image
+			<img
 				alt="dinesh"
 				src="/assets/team/dinesh.webp"
 				width={100}
@@ -69,7 +69,7 @@ const TEAM = [
 		name: "Ahmad",
 		designation: "Frontend Wiz",
 		image: (
-			<Image
+			<img
 				alt="ahmad"
 				src="/assets/team/ahmad.webp"
 				width={100}
