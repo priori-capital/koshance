@@ -6,7 +6,7 @@ export default function Navbar() {
 			<nav className="container mx-auto flex items-center justify-between px-16 py-5">
 				<KoshanceLogo />
 				<div className="flex items-center gap-12">
-					<div className="gap-12 text-light-300 hidden md:flex">
+					<div className="gap-12 text-light-300 hidden xl:flex">
 						<a href="#what_is_kosh" className="text-[14px]">
 							What&apos;s Koshance?
 						</a>

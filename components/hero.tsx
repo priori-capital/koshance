@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
 	const CHINS = ["polygon", "ethereum"];
 	return (
-		<main className="relative overflow-hidden">
+		<main className="relative ">
 			<div className="container mx-auto flex flex-col items-center justify-center gap-[18px] pt-8 text-white md:gap-12 md:pt-[84px]">
 				<div className="flex flex-col items-center gap-6 md:gap-20">
 					<h1 className="text-[24px] text-center md:text-[40px]">
@@ -32,33 +32,10 @@ export default function Hero() {
 					/>
 				</div>
 			</div>
-			<div className="absolute left-1/2 top-0 z-[-1] w-[658px] min-w-full -translate-x-1/2">
-				<img
-					src="https://framerusercontent.com/images/vVSxyP71hEtt53QMWViEYRGbc.png"
-					className="h-[auto]"
-				/>
-			</div>
-			<div className="flex flex-col items-center justify-center mt-16 mb-10 gap-2">
-				<h3 className="color-[#012221]">Supported chains:</h3>
-				<div className="flex gap-6 flex-wrap justify-center">
-					<Image
-						alt="polygon"
-						src="/chains/polygon.svg"
-						width={0}
-						height={0}
-						className="w-auto h-18 py-4"
-					/>
-					<Image
-						alt="ethereum"
-						src="/chains/ethereum.svg"
-						width={0}
-						height={0}
-						className="w-auto h-18 py-4"
-					/>
-
-					{/* <Image alt="polygon" src="/polygon.svg" /> */}
-				</div>
-			</div>
+			<img
+				src="https://framerusercontent.com/images/vVSxyP71hEtt53QMWViEYRGbc.png"
+				className="md:h-[850px] h-[400px] object-cover object-bottom w-full absolute left-0 top-0 z-[-1]"
+			/>
 		</main>
 	);
 }

@@ -3,6 +3,7 @@ import Hero from "@/components/hero";
 import Kira from "@/components/kira";
 import Navbar from "@/components/navbar";
 import Security from "@/components/security";
+import SupportedChains from "@/components/supported_chains";
 import Team from "@/components/team";
 import WhatIsKosh from "@/components/what_is_kosh";
 import WhyUS from "@/components/why_us";
@@ -13,6 +14,7 @@ export default function Home() {
 		<>
 			<Navbar />
 			<Hero />
+			<SupportedChains />
 			<WhatIsKosh />
 			<Security />
 			<WhyUS />

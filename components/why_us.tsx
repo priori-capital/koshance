@@ -60,7 +60,7 @@ const WHY_US = [
 ];
 const WhyUSCard = ({ why_us }: { why_us: (typeof WHY_US)[0] }) => {
 	return (
-		<div className="rounded-[16px] relative h-[201px] md:h-[330px] w-[336px] md:w-[550px] overflow-hidden flex items-center justify-center text-white">
+		<div className="rounded-[16px] relative h-[201px] md:h-[330px] w-[336px]  md:w-[450px] xl:w-[550px] overflow-hidden flex items-center justify-center text-white">
 			<div
 				className="absolute left-0 top-0 w-full h-full "
 				style={{
@@ -72,7 +72,7 @@ const WhyUSCard = ({ why_us }: { why_us: (typeof WHY_US)[0] }) => {
 				<WhyUSCardBG />
 			</div>
 			<div className="flex  items-center justify-center">{why_us.image}</div>
-			<div className="absolute bottom-8 left-1/2 -translate-x-1/2 w-[305px] md:w-[455px] flex flex-col gap-2">
+			<div className="absolute bottom-8 left-1/2 -translate-x-1/2 w-[305px] md:w-[355px] xl:w-[455px] flex flex-col gap-2">
 				<h3>{why_us.title}</h3>
 				<p>{why_us.description}</p>
 			</div>

@@ -3,11 +3,11 @@ import KoshanceLogo from "../public/icons/koshance_white.svg";
 export default function Footer() {
 	return (
 		<div className="bg-[#014A4A]">
-			<footer className="flex flex-col gap-6  mx-auto container py-16">
+			<footer className="flex flex-col gap-6  mx-auto container md:py-16 py-8 px-5">
 				<KoshanceLogo />
-				<div className="h-1 w-full bg-[rgba(217,217,217,0.10)]" />
-				<div className="flex justify-between">
-					<div className="flex text-[#D4D4D4] text-[16px] mt-[10px] gap-12">
+				<div className="h-1 w-full bg-[rgba(217,217,217,0.10)] " />
+				<div className="flex flex-col md:flex-row gap-4 items-center justify-between ">
+					<div className="flex flex-wrap text-xs md:text-base text-[#D4D4D4] text-[16px] mt-[10px] justify-between w-full md:w-auto md:gap-12">
 						<Link href="/">Privacy Policy</Link>
 						<Link href="/">Terms of use</Link>
 						<Link href="/">Cookie Policy</Link>

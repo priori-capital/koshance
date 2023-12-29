@@ -92,10 +92,7 @@ const TeamCard = ({ member }: { member: (typeof TEAM)[0] }) => {
 };
 export default function Team() {
 	return (
-		<div
-			id="team"
-			className="mx-auto md:w-[1172px] mt-16 pt-16 flex flex-col gap-16"
-		>
+		<div id="team" className="mx-auto mt-16 pt-16 flex flex-col gap-16">
 			<h2 className="text-center text-[#015657]">Meet the Team</h2>
 			<div className="flex flex-wrap justify-center gap-12">
 				{TEAM.map((member) => (
