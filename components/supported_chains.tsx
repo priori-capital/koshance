@@ -10,35 +10,35 @@ const SupportedChains = () => {
 					src="/chains/polygon.svg"
 					width={0}
 					height={0}
-					className="w-auto h-18 py-2 px-2 md:px-6 md:py-4"
+					className=" w-[241px] py-2 px-2 md:px-6 md:py-4"
 				/>
 				<Image
 					alt="ethereum"
 					src="/chains/ethereum.svg"
 					width={0}
 					height={0}
-					className="w-auto h-18  py-2 px-2 md:px-6 md:py-4"
+					className=" w-[241px] py-2 px-2 md:px-6 md:py-4"
 				/>
 				<Image
 					alt="optimism"
 					src="/chains/optimism.svg"
 					width={0}
 					height={0}
-					className="w-auto h-18  py-2 px-2 md:px-6 md:py-4"
+					className=" w-[241px] py-2 px-2 md:px-6 md:py-4"
 				/>
 				<Image
 					alt="binance"
 					src="/chains/binance.svg"
 					width={0}
 					height={0}
-					className="w-auto h-18  py-2 px-2 md:px-6 md:py-4"
+					className=" w-[241px] py-2 px-2 md:px-6 md:py-4"
 				/>
 				<Image
 					alt="arbitrum"
 					src="/chains/arbitrum.svg"
 					width={0}
 					height={0}
-					className="w-auto h-18  py-2 px-2 md:px-6 md:py-4"
+					className=" w-[241px] py-2 px-2 md:px-6 md:py-4"
 				/>
 
 				{/* <Image alt="polygon" src="/polygon.svg" /> */}

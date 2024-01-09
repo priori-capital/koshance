@@ -74,7 +74,7 @@ const WhyUSCard = ({ why_us }: { why_us: (typeof WHY_US)[0] }) => {
 			<div className="flex  items-center justify-center">{why_us.image}</div>
 			<div className="absolute bottom-8 left-1/2 -translate-x-1/2 w-[305px] md:w-[355px] xl:w-[455px] flex flex-col gap-2">
 				<h3>{why_us.title}</h3>
-				<p>{why_us.description}</p>
+				<p className="hidden md:block">{why_us.description}</p>
 			</div>
 		</div>
 	);

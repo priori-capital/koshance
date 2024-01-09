@@ -8,10 +8,12 @@ export default function Footer() {
 				<div className="h-1 w-full bg-[rgba(217,217,217,0.10)] " />
 				<div className="flex flex-col md:flex-row gap-4 items-center justify-between ">
 					<div className="flex flex-wrap text-xs md:text-base text-[#D4D4D4] text-[16px] mt-[10px] justify-between w-full md:w-auto md:gap-12">
-						<Link href="/">Privacy Policy</Link>
-						<Link href="/">Terms of use</Link>
+						<a target="_blank" href="https://blog.koshance.com/">
+							Blog
+						</a>
+						{/* <Link href="/">Terms of use</Link>
 						<Link href="/">Cookie Policy</Link>
-						<Link href="/">Contact us</Link>
+						<Link href="/">Contact us</Link> */}
 					</div>
 					<div className="flex gap-4">
 						<Link href="https://medium.com/@koshance" target="_blank">
