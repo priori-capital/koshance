@@ -3,7 +3,7 @@ import KoshanceLogo from "../public/icons/koshance_white.svg";
 export default function Navbar() {
 	return (
 		<div className="bg-[#002626] z-[10]">
-			<nav className="container mx-auto flex items-center justify-between px-16 py-5">
+			<nav className="container mx-auto flex items-center justify-between px-4 md:px-16 py-5">
 				<KoshanceLogo />
 				<div className="flex items-center gap-12">
 					<div className="gap-12 text-light-300 hidden xl:flex">
