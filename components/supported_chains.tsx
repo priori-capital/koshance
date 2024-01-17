@@ -3,8 +3,8 @@ import Image from "next/image";
 const SupportedChains = () => {
 	return (
 		<div className="flex flex-col items-center justify-center mt-16 mb-10 gap-2">
-			<h3 className="color-[#012221]">Supported chains:</h3>
-			<div className="flex flex-wrap justify-center">
+			<h3 className="text-[#012221]">Supported chains:</h3>
+			<div className="flex flex-wrap justify-center gap-4 md:gap-0">
 				<Image
 					alt="polygon"
 					src="/chains/polygon.svg"

@@ -5,8 +5,8 @@ export default function Hero() {
 	return (
 		<main className="relative ">
 			<div className="container mx-auto flex flex-col items-center justify-center gap-[18px] pt-8 text-white md:gap-12 md:pt-[84px]">
-				<div className="flex flex-col items-center gap-6 md:gap-20">
-					<h1 className="text-[24px] text-center md:text-[40px]">
+				<div className="flex flex-col items-center gap-6 md:gap-6">
+					<h1 className="text-[24px] text-center md:text-[48px]">
 						Simplifying Web3 Finance
 					</h1>
 					<p className="w-[304px] text-center text-[14px] text-light-300 md:w-[686px] md:text-[16px]">

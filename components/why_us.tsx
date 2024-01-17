@@ -2,9 +2,9 @@ import Image from "next/image";
 import WhyUSCardBG from "../public/assets/why_us_card_bg.svg";
 const WHY_US = [
 	{
-		title: "Consolidated access",
+		title: "Consolidated View",
 		description:
-			"Single platform providing access to multiple wallets enabling easter tracking and custody",
+			"Single platform providing access to multiple wallets enabling easter tracking.",
 		image: (
 			<Image
 				alt="MPC"
@@ -18,7 +18,7 @@ const WHY_US = [
 	{
 		title: "Policy Controls",
 		description:
-			"Implement account=specific transaction policies and role based access. Empowering teams to have faster operations while reducing dependency on leadership",
+			"Implement account specific transaction policies and role based access.",
 		image: (
 			<Image
 				alt="Policy Controls"
@@ -32,7 +32,7 @@ const WHY_US = [
 	{
 		title: "Automated Operations",
 		description:
-			"Rich feature set to enable frequent use cases saving time and eliminating human error. Schedule, manage and monitor transactions with designated alerts.",
+			"Schedule, manage and monitor transactions with designated alerts.",
 		image: (
 			<Image
 				alt="Automated Operations"
@@ -46,7 +46,7 @@ const WHY_US = [
 	{
 		title: "Regulatory Compliance",
 		description:
-			"Thorough transaction logs and in depth reports to help adhere to regulations and ensure compliance",
+			"Add tags and context to transactions for your accountants, auditors and others.",
 		image: (
 			<Image
 				alt="MPC"
@@ -82,9 +82,11 @@ const WhyUSCard = ({ why_us }: { why_us: (typeof WHY_US)[0] }) => {
 export default function WhyUS() {
 	return (
 		<div className="mx-auto container mt-16 flex flex-col gap-16">
-			<div className="flex flex-col gap-6 items-center">
-				<h2 className="text-[#015657]">One Stop for so many reasons</h2>
-				<p>A suite meant to enable and grow teams</p>
+			<div className="flex flex-col items-center">
+				<p className=" text-kgreen-400 text-xl">BUILT FOR WEB3 TEAMS</p>
+				<h2 className="text-[#015657] text-center md:text-left">
+					Crypto Assets seamlessly managed
+				</h2>
 			</div>
 			<div className="flex flex-wrap justify-center gap-6">
 				{WHY_US.map((why_us) => (
